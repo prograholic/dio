@@ -1,7 +1,7 @@
 project (data_io_tests)
 
 macro(ADD_BOOST_TEST name )
-	add_executable(${name} ${ARGV})
+	add_executable(${name} ${ARGN})
 	target_link_libraries(${name} ${Boost_LIBRARIES})
 	add_test(${name} ${name})
 endmacro()

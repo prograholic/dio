@@ -3,6 +3,8 @@ cmake_minimum_required(VERSION 2.8)
 project(data_io)
 
 find_package(Boost COMPONENTS unit_test_framework)
+include_directories(${Boost_INCLUDE_DIRS})
+add_definitions(${BOOST_DEFINITIONS})
 
 
 set (DataIoSources
