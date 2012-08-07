@@ -8,6 +8,7 @@
 
 BOOST_AUTO_TEST_SUITE(endian_data_to_int)
 
+using namespace boost;
 using namespace boost::dio;
 using namespace boost::dio::endian;
 
@@ -73,6 +74,7 @@ BOOST_AUTO_TEST_SUITE_END()
 
 BOOST_AUTO_TEST_SUITE(endian_int_to_data)
 
+using namespace boost;
 using namespace boost::dio;
 using namespace boost::dio::endian;
 
